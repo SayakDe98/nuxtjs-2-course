@@ -1,0 +1,11 @@
+generate command in script: It builds the application,
+generate every route as a HTML file and statically export
+it to a dist directory.
+Nuxtjs automatically generates the store folder. It is for vuex a state management provided by Vue.
+store is disabled by default.
+TO activate it create an index.js file inside store folder.
+
+SSR:
+We can create Server components in nuxt and we can make them like client side components
+when we hydrate them.
+Data fetching in server side is faster as compared to client side data fetching.
